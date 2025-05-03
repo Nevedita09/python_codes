@@ -1,0 +1,5 @@
+try:
+    num = int("hello")
+except ValueError as e:
+    print("ValueError: Cannot convert the input to integer.")
+    print("Error details:", e)
