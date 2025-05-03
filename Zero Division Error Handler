@@ -1,0 +1,10 @@
+def divide(a, b):
+    try:
+        result = a / b
+    except ZeroDivisionError as e:
+        print("Oops! You tried dividing by zero.")
+        print("Error:", e)
+    else:
+        print("Division Result:", result)
+
+divide(10, 0)
