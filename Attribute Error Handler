@@ -1,0 +1,7 @@
+text = 123
+
+try:
+    print(text.upper())
+except AttributeError as e:
+    print("AttributeError: That object doesn't support this operation.")
+    print("Error:", e)
