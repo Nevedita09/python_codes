@@ -1,0 +1,7 @@
+my_list = [1, 2, 3]
+
+try:
+    print(my_list[5])
+except IndexError as e:
+    print("IndexError: You tried to access an index that is out of range.")
+    print("Error:", e)
