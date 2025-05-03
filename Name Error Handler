@@ -1,0 +1,5 @@
+try:
+    print(unknown_variable)
+except NameError as e:
+    print("NameError caught: You tried using a variable that doesn't exist.")
+    print("Error details:", e)
