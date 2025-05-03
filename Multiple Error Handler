@@ -1,0 +1,7 @@
+try:
+    x = int("abc")
+    result = 10 / 0
+    print(undefined_var)
+except (ValueError, ZeroDivisionError, NameError) as e:
+    print("Caught an error of type:", type(e).__name__)
+    print("Error message:", e)
