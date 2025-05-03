@@ -1,0 +1,6 @@
+try:
+    with open("non_existing_file.txt", "r") as file:
+        content = file.read()
+except FileNotFoundError as e:
+    print("FileNotFoundError: The file you're trying to open doesn't exist.")
+    print("Error:", e)
