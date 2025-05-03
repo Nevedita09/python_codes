@@ -1,0 +1,5 @@
+try:
+    import imaginarymodule
+except ModuleNotFoundError as e:
+    print("ModuleNotFoundError: The module you're trying to import is not found.")
+    print("Error:", e)
