@@ -1,0 +1,6 @@
+# m5.py
+from my_package import list1, set2, dict3
+
+list1.append1("One")
+set2.adds2(1)
+dict3.add3("key", "value")
