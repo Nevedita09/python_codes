@@ -1,4 +1,4 @@
-# list1.py
+
 my_list = []
 
 def append1(x):
